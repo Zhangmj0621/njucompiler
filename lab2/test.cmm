@@ -1,0 +1,4 @@
+int newa(int a[10])
+{
+	return a[1];
+}

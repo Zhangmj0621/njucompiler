@@ -1,0 +1,14 @@
+FUNCTION fact :
+PARAM n
+IF n == #1 GOTO label0
+GOTO label1
+LABEL label0 :
+RETURN n
+GOTO label2
+LABEL label1 :
+t6 := n - #1
+ARG t6
+t5 := CALL fact
+t3 := n * t5
+RETURN t3
+LABEL label2 :

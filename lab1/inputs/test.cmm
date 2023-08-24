@@ -1,0 +1,17 @@
+struct c{
+	int e;
+	int d;
+};
+
+int main()
+{
+	int a=1,b=0;
+	struct c{
+		int e;
+		int d;
+		struct C{
+			int k;
+		}p;
+	}o;
+	return 0;
+}
